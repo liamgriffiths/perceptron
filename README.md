@@ -12,6 +12,10 @@ $ make test
 $ make demo
 ```
 
+### web demo
+
+A [link](https://liamgriffiths.github.io/perceptron).
+
 # license
 
 MIT
