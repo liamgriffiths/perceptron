@@ -27,33 +27,14 @@ var test = function(p, data, title) {
 };
 
 // learn 'and'
-var and = function() {
-  var data = [
-    [[1, 1], 1],
-    [[1, 0], 0],
-    [[0, 1], 0],
-    [[0, 0], 0]
-  ];
-  var p = perceptron(2);
+var data = [
+  [[1, 1], 1],
+  [[1, 0], 0],
+  [[0, 1], 0],
+  [[0, 0], 0]
+];
+var p = perceptron(2);
 
-  test(p, data, 'Learning "and": before training');
-  train(p, data, 100);
-  test(p, data, 'Learning "and": after training');
-};
-
-var or = function() {
-  var data = [
-    [[1, 1], 0],
-    [[1, 0], 1],
-    [[0, 1], 1],
-    [[0, 0], 0]
-  ];
-  var p = perceptron(2);
-
-  test(p, data, 'Learning "or": before training');
-  train(p, data, 100);
-  test(p, data, 'Learning "or": after training');
-};
-
-and();
-or();
+test(p, data, 'Learning "and": before training');
+train(p, data, 100);
+test(p, data, 'Learning "and": after training');

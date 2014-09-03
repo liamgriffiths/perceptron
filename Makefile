@@ -16,7 +16,7 @@ test: deps
 	@$(bin)/mocha --check-leaks -R spec --recursive $(tests)
 
 demo: deps
-	@node ./demo/booleans
+	@node ./demo/and
 
 clean:
 	@rm -rf ./node_modules
