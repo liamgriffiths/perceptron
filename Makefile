@@ -18,6 +18,9 @@ test: deps
 demo: deps
 	@node ./demo/and
 
+web:
+	@node build > bundle.js
+
 clean:
 	@rm -rf ./node_modules
 
