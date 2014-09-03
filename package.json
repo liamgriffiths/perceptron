@@ -1,7 +1,7 @@
 {
   "name": "perceptron",
   "version": "0.0.0",
-  "description": "simple machine learning",
+  "description": "simple machine learning for the people",
   "main": "index.js",
   "directories": {
     "test": "test"
