@@ -1,0 +1,24 @@
+{
+  "name": "perceptron",
+  "version": "0.0.0",
+  "description": "simple machine learning for the people",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "perceptron"
+  ],
+  "author": "liam griffiths <liamgriffiths@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "traceur": "0.0.22"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.5",
+    "mocha": "^1.21.4"
+  }
+}
