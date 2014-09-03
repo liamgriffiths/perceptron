@@ -1,7 +1,7 @@
 # perceptron
 
 Little [Perceptron](https://en.wikipedia.org/wiki/Perceptron) implementation in
-ES6 JavaScript simple linear classification tasks.
+ES6 JavaScript for simple linear classification tasks.
 
 # install, tests, demo
 ```
